@@ -16,3 +16,11 @@ Execute o comando: pip install fastapi unicorn mysql-connector-python pydantic
 E por último executar a aplicação com uvicorn 
 
 Uvicorn main:app --reload
+
+e no fim ele te dará o endereço via ip para acessar no navegador
+exemplo: 
+Com o servidor rodando, abra o seu navegador e acesse:
+
+    Swagger UI: http://127.0.0.1:8000/docs
+
+    ReDoc: http://127.0.0.1:8000/redoc
